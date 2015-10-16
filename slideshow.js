@@ -16,11 +16,11 @@ $(function () {
 
   $('.thumbnail').eq(0).addClass('current');
 
-  //1. previewをクリックしたときの処理
 
-  //2. prev、nextボタンをクリックしたときの処理
+  //1. process on click preview image
 
-  //3. 開始、停止ボタンをクリックしたときの処理
+  //2. process on click prev or next button
 
+  //3. process on click start or stop button
 });
 
