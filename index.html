@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="slideshow.js"></script>
+  <title>Practice Slideshow</title>
+  <style>
+    body {
+      margin: 10px auto;
+      text-align: center;
+    }
+    .thumbnail {
+      width: 125px;
+      height: 83px;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+    .current {
+      opacity: 1.0;
+    }
+    .thumbnail + .thumbnail {
+      margin-left: 4px;
+    }
+    #main img {
+      width: 513px;
+    }
+  </style>
+</head>
+<body>
+  <div id="thumbnails">
+  </div>
+  <div id="main">
+  </div>
+  <div id="nav">
+    <button id="prev">&laquo; 前へ</button>
+    <button id="next">次へ &raquo;</button>
+  </div>
+  <div id="auto">
+    <button id="play">開始</button>
+    <button id="stop">停止</button>
+  </div>
+</body>
+</html>
