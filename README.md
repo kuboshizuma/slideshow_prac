@@ -3,7 +3,14 @@ This repository was created for studying jquery basics. (theme: slideshow basics
 
 ##begin with
 You can begin to study with start branch.
+
+```
+$ git clone -b start https://github.com/kuboshizuma/slideshow_prac.git
+```
+
 Master branch is complete version, so you can check up your code compared to it.
+
+
 
 ##to do
 Write the code in slideshow.js according to the following items.
